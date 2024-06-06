@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    height: 2000px;
+  }
+  main{
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+  }
+  .imgenentrada{
+    height: 100%;
+    width: 70%;
+   background-image: url(Imgs/pinos.jpg );
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+  .formulario {
+    height: 100%;
+    width: 30%;
+    background-color: #095e3b;
+  }
+  .formulariodentro{
+  margin: 50%;
+  padding: 20% ;
+  margin-left: 20%;
+  margin-right: 10%;
+  border: solid 8px rgb(95, 134, 107);
+  border-radius: 30%;
+  color:rgb(163, 185, 170);
+  }
+ section {
+    padding: 10px;
+    height: 100%; 
+  }
+
