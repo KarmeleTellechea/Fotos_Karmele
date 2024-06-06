@@ -16,12 +16,12 @@
                 <input type="text" id="username" name="username"><br>
                 <label for="pwd">Contraseña:</label><br>
                 <input type="password" id="pwd" name="pwd"><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                <label for="vehicle3"> Acepto las condiciones </label><br>
-                <input type="submit" value="Enviar">
+                <input type="checkbox" onChange="cambiarCondiciones()" id="condiciones"  name="condiciones"/>
+                 Estoy de acuerdo con los <a href="terminos.html" target="_blank" class="enlace-terminos">términos y condiciones</a> <br/>
+                <input id="enviar" disabled class="botons" type="submit" value="Enviar">
             </form> 
       </div>
     </main>
-
+        <script src="main.js"></script>
 </body>
 </html>

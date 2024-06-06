@@ -1,5 +1,5 @@
 [Backlog]
-
+-solo cuando acepto condiciones se activa el boton 
 -Crear estilos para que sea respon 
 [Spring]
 
