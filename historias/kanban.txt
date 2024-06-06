@@ -1,10 +1,10 @@
 [Backlog]
--Crear Index con formulario 
+
 -Crear estilos para que sea respon 
 [Spring]
 
 
 [In progress]
-
+-Crear Index con formulario 
 
 [Done]
