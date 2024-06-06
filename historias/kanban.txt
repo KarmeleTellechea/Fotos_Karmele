@@ -1,5 +1,7 @@
 [Backlog]
 -Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
+    -crear caja normal de popup y dar estilo (titulo,texto y boton)
+    -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca.
 
 [Spring]
 
