@@ -1,10 +1,14 @@
 [Backlog]
--solo cuando acepto condiciones se activa el boton 
--Crear estilos para que sea respon 
+-Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
+
 [Spring]
 
 
 [In progress]
 -Crear Index con formulario 
 
+-Crear estilos para que sea respon 
+
 [Done]
+-Estilos super bonitos index
+-Solo cuando acepto condiciones se activa el boton 
