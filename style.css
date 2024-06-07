@@ -94,3 +94,24 @@
 .terminos{
   color: rgb(72, 72, 228);
 }
+@media only screen and (min-width:600px){
+  
+  }
+ 
+  @media only screen and (max-width:600px){
+    .imgenentrada{ 
+      display: none;
+    }
+    .formulario {
+      height: 100%;
+      width: 100%;
+      background-image: url(Imgs/pinos.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+    .formulariodentro{
+      background-color:  rgba(82, 109, 82, 0.486);
+    }
+  }
