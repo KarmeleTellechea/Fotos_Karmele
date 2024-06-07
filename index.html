@@ -8,7 +8,6 @@
 </head>
 <body>
     <main>
-     
         <div class="imgenentrada" ></div>
         <div class="formulario">
             <form class="formulariodentro">
@@ -17,17 +16,19 @@
                 <label for="pwd">Contraseña:</label><br>
                 <input type="password" id="pwd" name="pwd"><br>
                 <input type="checkbox" onChange="cambiarCondiciones()" id="condiciones"  name="condiciones"/>
-                 Estoy de acuerdo con los <a href="terminos.html" target="_blank" class="enlace-terminos">términos y condiciones</a> <br/>
-                
+                Estoy de acuerdo con los 
+                <div class="terminos" onclick="pop('Terminos y condiciones', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, soluta!')" > Términos y condiciones</div> <br/>
+        
                 <input id="enviar" disabled class="botons" type="submit" value="Enviar">
             </form> 
       </div>
+
      <div id="popwrap">
                     <div id="popbox">
                         <h1 id="poptitle">Terminos y condiciones </h1>
                         <p id="poptext">Lorem ipsum dolor sit amet <br>
                             consectetur adipisicing elit. Ducimus, soluta!</p>
-                          <div id="popclose">X</div>  
+                            <div id="popclose" onclick="hidePop()">X</div>  
 
                     </div>
                  </div>
