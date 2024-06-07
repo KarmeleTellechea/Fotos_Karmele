@@ -1,8 +1,5 @@
 [Backlog]
--Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
-    -crear caja normal de popup y dar estilo (titulo,texto y boton)
-    -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca.
-
+-conectar boton con fotos.html
 [Spring]
 
 
@@ -12,5 +9,10 @@
 -Crear estilos para que sea respon 
 
 [Done]
+-POPUP
+    -Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
+    -crear caja normal de popup y dar estilo (titulo,texto y boton)
+    -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca.
+
 -Estilos super bonitos index
 -Solo cuando acepto condiciones se activa el boton 

@@ -33,12 +33,6 @@
   color:rgb(163, 185, 170);
   font-size: 1.2rem;
 }
-  
- section {
-    padding: 10px;
-    height: 100%; 
-  }
-
 .formulariodentro input[type="text"],
 .formulariodentro input[type="password"] {
     width: 100%;
@@ -53,7 +47,6 @@
     transform: scale(1.3);
     margin:5%;
 }
-
 #popwrap {
   visibility: hidden;
   position: fixed;
@@ -61,21 +54,21 @@
   z-index: 999;
   width: 100vw; height: 100vh;
   background: rgba(169, 224, 169, 0.486);
-  display: none; /* Initial state is hidden */
+  display: none; 
   justify-content: center;
   align-items: center;
 }
-
 #popwrap.show {
   visibility: visible;
-  display: flex; /* Show pop-up */
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  display: flex; 
+  -webkit-animation: popupin 1s;
+  animation:popupin 1s;
 }
 #popbox{
   position: relative;
-  min-width: 520px ;
+  min-width: 20px ;
   background: white;
+  border: solid 1rem rgb(32, 73, 32);
 }
 #popclose{
   position: absolute;
@@ -88,13 +81,13 @@
   padding: 10%;
 
 }
-/* Animación del pop-up */
-@-webkit-keyframes fadeIn {
+
+@-webkit-keyframes popupin {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
 
-@keyframes fadeIn {
+@keyframes popupin {
   from {opacity: 0;}
   to {opacity: 1;}
 }
