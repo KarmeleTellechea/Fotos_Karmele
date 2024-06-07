@@ -72,7 +72,22 @@
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
+#popbox{
+  position: relative;
+  min-width: 520px ;
+  background: white;
+}
+#popclose{
+  position: absolute;
+  top: 0; 
+  right: 5px;
+  font-size: 3rem;
+}
+#poptitle, #poptext{
+  margin: 0;
+  padding: 10%;
 
+}
 /* Animación del pop-up */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
