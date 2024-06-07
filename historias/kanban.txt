@@ -1,18 +1,28 @@
 [Backlog]
--conectar boton con fotos.html
+LOGING 
+    -  GUARDAR USUARIO ETC CON STORAGE 
+FOTOS
+    -Estructura html para fotos.
+    -El dashboard ha de ser una página responsive que muestre fotografías según una clasificación:
+    -3 CATEGORIAS DE FOTOS 
+
 [Spring]
 
 
 [In progress]
--Crear Index con formulario 
-
--Crear estilos para que sea respon 
+  -Esquema papel 
 
 [Done]
+
+FORMULARIO: 
+    -Crear Index con formulario.
+    -Crear estilos para que sea respon
 -POPUP
     -Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
     -crear caja normal de popup y dar estilo (titulo,texto y boton)
     -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca.
 
--Estilos super bonitos index
--Solo cuando acepto condiciones se activa el boton 
+    -Estilos super bonitos index
+    -Solo cuando acepto condiciones se activa el boton 
+    -conectar boton con fotos.htm
+FOTOS

@@ -17,23 +17,22 @@
                 <label for="pwd">Contraseña:</label><br>
                 <input type="password" id="pwd" name="pwd"><br>
                 <input type="checkbox" onChange="cambiarCondiciones()" id="condiciones"  name="condiciones"/>
-                Estoy de acuerdo con los 
-                <div class="terminos" onclick="pop('Terminos y condiciones', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, soluta!')" > Términos y condiciones</div> <br/>
-
+                                    Estoy de acuerdo con los 
+                <div class="terminos" onclick="pop('Terminos y condiciones', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, soluta!')" > 
+                Términos y condiciones</div> <br/>
                 <input id="enviar" class="botons" type="submit" value="Enviar" disabled >
             </form> 
       </div>
 
-     <div id="popwrap">
-                    <div id="popbox">
-                        <h1 id="poptitle">Terminos y condiciones </h1>
-                        <p id="poptext">Lorem ipsum dolor sit amet <br>
-                            consectetur adipisicing elit. Ducimus, soluta!</p>
+        <div id="popwrap">
+                        <div id="popbox">
+                            <h1 id="poptitle">Terminos y condiciones </h1>
+                            <p id="poptext">Lorem ipsum dolor sit amet <br>
+                                consectetur adipisicing elit. Ducimus, soluta!</p>
                             <div id="popclose" onclick="hidePop()">&#9746;</div>  
-
-                    </div>
-                 </div>
+                        </div>
+        </div>
     </main>
-        <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
