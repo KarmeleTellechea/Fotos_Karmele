@@ -103,7 +103,7 @@
     .formulario {
       height: 100%;
       width: 100%;
-      background-image: url(Imgs/pinos.jpg);
+      background-image: url(/images/pinos.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
