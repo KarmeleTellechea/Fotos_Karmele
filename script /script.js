@@ -21,7 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 const img = document.createElement('img');
                 img.src = src;
                 img.alt = category;
-                imageContainer.appendChild(img);
+
+                const div = document.createElement('div');
+                div.classList.add('container');
+                div.appendChild(img);
+
+                imageContainer.appendChild(div);
             });
         }
     }
