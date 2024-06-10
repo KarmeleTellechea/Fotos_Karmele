@@ -9,7 +9,7 @@ FOTOS
         -Ver algunas imagenes aleatorias 
         -A la izquierda quiero poder ver las seciones que son : 1.ANIMAL 2. PERSONAS 3. NATURALEZA 
             - quiero que cuando le de a alguna secion me salgan fotos aleatorias sobre esa secion.
-            -quiero que cuando le de a la secion poder ver las subseciones para poder alegir 
+          
             -Quiero que cada vez que le de a una secion poder ver en el titulo de arriba (saber donde estoy)
         -quiero que cuando le de a una subsecion aparezcan las fotos de esa secion y subsecion categorizadas.
     -Quiero que la pagina sea realivo.
@@ -21,6 +21,8 @@ FOTOS
 
 [In progress]
   -Esquema papel 
+    -A la izquierda quiero poder ver las seciones que son : 1.ANIMAL 2. PERSONAS 3. NATURALEZA 
+      -quiero que cuando le de a la secion poder ver las subseciones para poder alegir 
 
 [Done]
 

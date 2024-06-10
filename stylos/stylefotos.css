@@ -7,7 +7,7 @@
     width: 90%;
 }
 #image-container .container {
-    flex: 1 1 calc(33.333% - 50px);
+    flex: 1 1 calc(30%);
     display: flex;
     justify-content: center;
     align-items: center;

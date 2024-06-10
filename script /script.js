@@ -1,9 +1,15 @@
+//Cambio de titulos 
+const titulocategoria = document.getElementById('categoria')
+const titulosubcategora = document.getElementById('subcategoria')
+
+// Cambio de imagenes . 
+
 document.addEventListener('DOMContentLoaded', () => {
     const selectAnimales = document.getElementById('animales');
     const selectPersonas = document.getElementById('personas');
     const selectNatura = document.getElementById('natura');
     const imageContainer = document.getElementById('image-container');
-
+// IMAGENES : 
     const imagePaths = {
         perros: ['images/perros/perros1.jpg', 'images/perros/perros2.jpg'],
         gatos: ['images/gatos/gatos1.jpg', 'images/gatos/gatos2.jpg'],
@@ -45,11 +51,13 @@ document.addEventListener('DOMContentLoaded', () => {
             'images/bosque/bosque5.jpg'
         ]
         };
-
+//Funcion ver imagenes
     function showImages(category) {
-        imageContainer.innerHTML = ''; // Clear previous images
+        imageContainer.innerHTML = '';
+
         if (category && imagePaths[category]) {
             imagePaths[category].forEach(src => {
+              
                 const img = document.createElement('img');
                 img.src = src;
                 img.alt = category;
