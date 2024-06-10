@@ -23,4 +23,4 @@ enviar.addEventListener('click', function(event) {
         document.getElementById("popwrap").classList.remove('show');
     }
 
-        
+// SELECTOR 
