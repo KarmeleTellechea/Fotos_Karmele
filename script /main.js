@@ -6,10 +6,7 @@ const cambiarCondiciones = () => { enviar.disabled = !condiciones.checked;};
 //mandame a otra pagina
 condiciones.addEventListener('change', cambiarCondiciones);
 
-enviar.addEventListener('click', function(event) {
-    event.preventDefault();
-    window.location.href = 'fotos.html';
-});
+
 
 // Funcion POPUP
     //funcion aparecer 
@@ -24,3 +21,11 @@ enviar.addEventListener('click', function(event) {
     }
 
 // SELECTOR 
+
+
+
+
+//enviar.addEventListener('click', function(event) {
+    //event.preventDefault();
+  //  window.location.href = 'auth.html';
+//});

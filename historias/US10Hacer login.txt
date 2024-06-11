@@ -1,0 +1,17 @@
+Codigo:US10
+
+Nombre: Loging  
+
+Roles:Usuario 
+
+Necesidad:
+    -Rellenar todos los campos del formulario 
+    -Poder ver las condiciones que tengo que aceptar
+    -aceptar condiciones para poder ir a la pagina de fotos 
+
+Razon:
+    -Poder Autenticar mi usuario y meter mi informacion ademas de aceptar terminos y condiciones 
+
+Aceptacion: Que compruebe
+
+Relaciones:  

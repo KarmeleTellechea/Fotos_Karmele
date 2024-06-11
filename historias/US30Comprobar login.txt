@@ -1,0 +1,16 @@
+Codigo:US30
+
+
+Nombre: Autorizar usuario 
+
+Roles:Sistema
+
+Necesidad:
+    -Comprobar las credenciales enciadas para poder acceder al sitio.
+
+Razon:
+    -Evitar accesos no autorizados al sitio 
+
+Aceptacion: Que compruebe
+
+Relaciones:  

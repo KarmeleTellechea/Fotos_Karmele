@@ -1,0 +1,16 @@
+Codigo:US11
+
+Nombre: Informacion sobre terminos y condiciones  
+
+Roles:Usuario 
+
+Necesidad:
+    -Poder abrir una ventana para poder leer los terminos y condiciones  
+    -Poder cerrarla para seguir rellenando el formulario
+
+Razon:
+    -Poder Tener informacion como usuario. 
+
+Aceptacion: 
+
+Relaciones:  
