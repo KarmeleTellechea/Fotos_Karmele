@@ -1,11 +1,5 @@
 [Backlog]
 LOGING 
-  
-AUTH:
-    -Tenemos metodo get 
-    -crear un js para guardar usuarios y contraseña
-    -si es correcta mandar a la pagina de fotos 
-    -si no un alert y mandar a la pagina de loging 
 
 FOTOS
     -Estructura html para fotos.
@@ -31,7 +25,14 @@ FOTOS
       -quiero que cuando le de a la secion poder ver las subseciones para poder alegir 
 
 [Done]
+  
+US30AUTH:
+    -Tenemos metodo get 
+    -crear un js para guardar usuarios y contraseña
+    -si no un alert y mandar a la pagina de loging 
 
+ US40 si es correcta mandar a la pagina de fotos 
+ 
 US10 FORMULARIO: 
     -Crear Index con formulario.
     -Crear estilos para que sea respon
