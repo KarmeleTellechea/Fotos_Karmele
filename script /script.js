@@ -1,3 +1,12 @@
+//has pasados por auth??
+const urlauth = new URLSearchParams(window.location.search);
+const authen = urlauth.get('auth');
+console.log(authen);
+if (!authen){
+    alert('Tramposo')
+    window.location = 'index.html';
+}
+
 //Cambio de titulos 
 const titulocategoria = document.getElementById('categoria')
 const titulosubcategora = document.getElementById('subcategoria')

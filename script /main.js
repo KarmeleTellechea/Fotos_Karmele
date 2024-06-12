@@ -20,12 +20,3 @@ condiciones.addEventListener('change', cambiarCondiciones);
         document.getElementById("popwrap").classList.remove('show');
     }
 
-// SELECTOR 
-
-
-
-
-//enviar.addEventListener('click', function(event) {
-    //event.preventDefault();
-  //  window.location.href = 'auth.html';
-//});

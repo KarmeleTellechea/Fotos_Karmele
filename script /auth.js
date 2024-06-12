@@ -10,7 +10,7 @@
     var verify = !!users.find(element => element.username === usernames && element.contrasena === password)
       console.log(verify);
     if (verify) {
-       window.location = 'fotos.html';
+       window.location.href = 'http://127.0.0.1:5500/fotos.html?auth=Ok';
     } else {
       alert('Usuario o contraseña incorrecta');
       window.location = 'index.html';
