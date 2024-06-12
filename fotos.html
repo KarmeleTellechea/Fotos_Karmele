@@ -21,7 +21,7 @@
             <ul id="nav-items">
                 <li>
                     <h3>ANIMALES</h3>
-                    <select id="animales" size="3">
+                    <select id="animales"  onchange="updateHeader(this, 'ANIMALES')" size="3">
                         <option value="perros">Perros</option>
                         <option value="gatos">Gatos</option>
                         <option value="otros">Otros</option>
@@ -30,14 +30,14 @@
                
                 <li>
                     <h3>PERSONAS</h3>
-                    <select id="personas" size="2" >
+                    <select id="personas" onchange="updateHeader(this, 'PERSONAS')"  size="2" >
                         <option value="femenino">Femenino</option>
                         <option value="masculino">Masculino</option>
                     </select>
                 </li>
                 <li>
                     <h3>NATURA</h3>
-                    <select id="natura" size="2">
+                    <select id="natura"onchange="updateHeader(this, 'NATURA')"  size="2">
                       
                         <option value="playa">Playa</option>
                         <option value="bosque">Bosque</option>

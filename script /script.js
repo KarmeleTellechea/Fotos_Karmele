@@ -8,8 +8,11 @@ if (!authen){
 }
 
 //Cambio de titulos 
-const titulocategoria = document.getElementById('categoria')
-const titulosubcategora = document.getElementById('subcategoria')
+function updateHeader(selectElement, category) {
+    const subcategory = selectElement.options[selectElement.selectedIndex].value;
+    document.getElementById('categorias').innerText = category;
+    document.getElementById('subcategoria').innerText = subcategory;
+}
 
 // Cambio de imagenes . 
 document.addEventListener('DOMContentLoaded', () => {
