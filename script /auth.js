@@ -13,10 +13,9 @@
             console.log(verify);
           
             if (verify) {
-              alert('¡Correo y contraseña correctos!');
               window.location = 'fotos.html';
             } else {
-              alert('Correo o contraseña incorrecta');
+              alert('Usuario o contraseña incorrecta');
               window.location = 'index.html';
             }
           }
