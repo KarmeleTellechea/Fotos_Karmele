@@ -27,7 +27,7 @@ main{
   header{
     background-color: rgb(67, 109, 67);
   }
-  aside {
+  nav{
     height: 100%;
     width: 10%;
     display: flex;

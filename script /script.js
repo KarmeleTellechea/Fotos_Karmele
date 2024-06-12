@@ -3,7 +3,6 @@ const titulocategoria = document.getElementById('categoria')
 const titulosubcategora = document.getElementById('subcategoria')
 
 // Cambio de imagenes . 
-
 document.addEventListener('DOMContentLoaded', () => {
     const selectAnimales = document.getElementById('animales');
     const selectPersonas = document.getElementById('personas');
@@ -27,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
              'images/perros/perros13.jpg',
               'images/perros/perros14.jpg',
               'images/perros/perros15.jpg',
-            ],
+        ],
         gatos: [
             'images/gatos/gatos1.jpg',
              'images/gatos/gatos2.jpg',
@@ -90,8 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'images/playa/playa10.jpg',
             'images/playa/playa11.jpg', 
             'images/playa/playa12.jpg',
-    ],
-
+        ],
         bosque: [
             'images/bosque/bosque1.jpg', 
             'images/bosque/bosque2.jpg',
@@ -109,26 +107,25 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
         };
 //Funcion ver imagenes
-    function showImages(category) {
-        imageContainer.innerHTML = '';
 
-        if (category && imagePaths[category]) {
-            imagePaths[category].forEach(src => {
-              
-                const img = document.createElement('img');
-                img.src = src;
-                img.alt = category;
+function showImages(category) {
+    imageContainer.innerHTML = '';
 
-                const div = document.createElement('div');
-                div.classList.add('container');
-                div.appendChild(img);
+    if (category && imagePaths[category]) {
+        imagePaths[category].forEach(src => {
+            const img = document.createElement('img');
+            img.src = src;
+            img.alt = category;
 
-                imageContainer.appendChild(div);
-            });
-        }
+            const div = document.createElement('div');
+            div.classList.add('container');
+            div.appendChild(img);
+
+            imageContainer.appendChild(div);
+        });
     }
-
-    selectAnimales.addEventListener('change', () => showImages(selectAnimales.value));
-    selectPersonas.addEventListener('change', () => showImages(selectPersonas.value));
-    selectNatura.addEventListener('change', () => showImages(selectNatura.value));
+}
+  selectAnimales.addEventListener('change', () => showImages(selectAnimales.value));
+selectPersonas.addEventListener('change', () => showImages(selectPersonas.value));
+selectNatura.addEventListener('change', () => showImages(selectNatura.value));
 });
