@@ -1,7 +1,15 @@
-Codigo:US30
-Nombre: Autorizar usuario 
+Codigo:US20
+
+Nombre: Mostrar condiciones
+
 Roles:Sistema
-Necesidad:Comprobar las credenciales enciadas para poder acceder al sitio 
-Razon:Evitar accesos no autorizados al sitio 
-Aceptacion: Que compruebe
-Relaciones:  
+
+Necesidad:
+-Enseñar al usuario las condiciones . 
+-Aceptar o rechazar 
+
+Razon:
+-Usuario tenga informacion 
+
+Aceptacion: Aceptar condiciones
+Relaciones: 

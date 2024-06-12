@@ -134,7 +134,7 @@ function showImages(category) {
         });
     }
 }
-  selectAnimales.addEventListener('change', () => showImages(selectAnimales.value));
+selectAnimales.addEventListener('change', () => showImages(selectAnimales.value));
 selectPersonas.addEventListener('change', () => showImages(selectPersonas.value));
 selectNatura.addEventListener('change', () => showImages(selectNatura.value));
 });
