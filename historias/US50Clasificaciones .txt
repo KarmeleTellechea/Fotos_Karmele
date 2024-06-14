@@ -10,7 +10,7 @@ Necesidad:
     Que cuando se pinche en una clasificacion, se muestren las fotos de las mismas
 
 Razon:  
-    Poder ver loen las datos de cada clasificacion 
+    Poder verlo en las datos de cada clasificacion 
 
 Aceptacion: Que compruebe
 
