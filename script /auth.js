@@ -1,7 +1,7 @@
   const users = [
     { username: 'luisito', contrasena: '123' },
     { username: 'chris', contrasena: '456' },
-    { username: 'mario', contrasena: '789' },,
+    { username: 'mario', contrasena: '789' },
     { username: 'karmele', contrasena: 'karmele' },
   ];
   function iniciarSesion() {
