@@ -13,7 +13,7 @@
   .imgenentrada{
     height: 100%;
     width: 70%;
-   background-image: url(/images/pinos.jpg);
+   background-image: url(images/pinos.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
