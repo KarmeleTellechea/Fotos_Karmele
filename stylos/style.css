@@ -3,7 +3,7 @@
   }
   body {
     margin: 0;
-    height:1240px;
+    height:70rem;
   }
   main{
     display: flex;
@@ -22,9 +22,10 @@
     height: 100%;
     width: 30%;
     background-color: #095e3b;
+
   }
   .formulariodentro{
-  margin: 60%;
+  margin: 50%;
   padding: 10% ;
   margin-left: 20%;
   margin-right: 10%;

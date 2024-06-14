@@ -103,6 +103,7 @@ h3 {
         font-size: 200%;
         font-weight: bold;
         cursor: pointer;
+        
     }
 
     aside input:checked~#nav-items {
