@@ -11,7 +11,7 @@
     let verify = !!users.find(element => element.username === usernames && element.contrasena === password)
       console.log(verify);
     if (verify) {
-       window.location.href = 'http://127.0.0.1:5500/fotos.html?auth=Ok';
+       window.location.href = 'fotos.html?auth=Ok';
     } else {
       alert('Usuario o contraseña incorrecta');
       window.location.href = 'https://karmeletellechea.github.io/Fotos_Karmele/';
