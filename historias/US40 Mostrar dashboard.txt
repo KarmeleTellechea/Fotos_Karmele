@@ -1,7 +1,13 @@
-Codigo:US30
-Nombre: Autorizar usuario 
+Codigo:US40
+
+Nombre: Mostrar dashboard
+
 Roles:Sistema
-Necesidad:Comprobar las credenciales enciadas para poder acceder al sitio 
-Razon:Evitar accesos no autorizados al sitio 
-Aceptacion: Que compruebe
+
+Necesidad:poder ver la pagina dashboard para ver las imagenes y selecionarlas 
+
+Razon:Poder ver las imagenes 
+
+Aceptacion: ver 
+
 Relaciones:  
