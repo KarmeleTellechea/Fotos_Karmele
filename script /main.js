@@ -6,8 +6,6 @@ const cambiarCondiciones = () => { enviar.disabled = !condiciones.checked;};
 //mandame a otra pagina
 condiciones.addEventListener('change', cambiarCondiciones);
 
-
-
 // Funcion POPUP
     //funcion aparecer 
     function pop(title, text) {

@@ -14,7 +14,7 @@
        window.location.href = 'fotos.html?auth=Ok';
     } else {
       alert('Usuario o contraseña incorrecta');
-      window.location.href = 'https://karmeletellechea.github.io/Fotos_Karmele/';
+      window.location.href = 'https://karmeletellechea.github.io/Fotos_Karmele/'; // ../../index
     }
   }
       

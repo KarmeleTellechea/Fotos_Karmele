@@ -20,21 +20,21 @@ US30AUTH:
     -crear un js para guardar usuarios y contraseña
     -si no un alert y mandar a la pagina de loging 
 
- US40 si es correcta mandar a la pagina de fotos 
+US40 si es correcta mandar a la pagina de fotos 
  
-US10 FORMULARIO: 
-    -Crear Index con formulario.
-    -Crear estilos para que sea respon
-    -Metodo get y action para enviar a autenticar los datos en otro html 
-    -Estilos super bonitos index
-    -Solo cuando acepto condiciones se activa el boton 
-    -conectar boton con auth.html
-US11-POPUP
-    -Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)
-    -crear caja normal de popup y dar estilo (titulo,texto y boton)
-    -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca.
+US10 FORMULARIO (estimado 6 h real 4 h ): 
+    -Crear Index con formulario.(estimado  1h real 20m )
+    -Crear estilos para que sea respon(estimado  1h real 20m)
+    -Metodo get y action para enviar a autenticar los datos en otro html (estimado 1h real 40m)
+    -Estilos super bonitos index (estimado 1h real 20m)
+    -Solo cuando acepto condiciones se activa el boton (estimado 1h real 40m)
+    -conectar boton con auth.html (estimado 1h real 40m)
 
-   
+US11-POPUP (estimado 1 h real 1:30 h )
+    -Link de condicion en una ventana pequeña nueva con aceptar de nuevo (popup box)(estimado 20m real 30m )
+    -crear caja normal de popup y dar estilo (titulo,texto y boton)(estimado 20m real 30m)
+    -crear una funcion donde esta vinculado con el link para que aparezca o desaparezca. (estimado 20m  real 30m )
+
 US40FOTOS
 -3 CATEGORIAS DE FOTOS 
  -Estructura html para fotos.
