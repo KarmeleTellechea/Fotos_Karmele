@@ -1,0 +1,110 @@
+{
+    "perros": [
+        {
+            "perro1": "images/perros/perros1.webp", 
+            "perro2": "images/perros/perros2.webp",
+            "perro3": "images/perros/perros3.webp", 
+            "perro4": "images/perros/perros4.webp",
+            "perro5": "images/perros/perros5.webp", 
+            "perro6": "images/perros/perros6.webp",
+            "perro7": "images/perros/perros7.webp", 
+            "perro8": "images/perros/perros8.webp",
+            "perro9": "images/perros/perros9.webp", 
+            "perro10": "images/perros/perros10.webp",
+            "perro11": "images/perros/perros11.webp",
+            "perro12": "images/perros/perros12.webp",
+            "perro13": "images/perros/perros13.webp",
+            "perro14": "images/perros/perros14.webp",
+            "perro15": "images/perros/perros15.webp"
+        }
+    ],
+    "gatos": [
+        {
+            "gato1": "images/gatos/gatos1.webp",
+            "gato2": "images/gatos/gatos2.webp",
+            "gato3": "images/gatos/gatos3.webp", 
+            "gato4": "images/gatos/gatos4.webp"
+        }
+    ],
+    "otros": [
+        {
+            "otro1": "images/otros/otros1.webp",
+            "otro2": "images/otros/otros2.webp",
+            "otro3": "images/otros/otros3.webp", 
+            "otro4": "images/otros/otros4.webp", 
+            "otro5": "images/otros/otros5.webp",
+            "otro6": "images/otros/otros6.webp",
+            "otro7": "images/otros/otros7.webp",
+            "otro8": "images/otros/otros8.webp",
+            "otro9": "images/otros/otros9.webp"
+        }
+    ],
+    "femenino": [
+        {
+            "femenino1": "images/femenino/femenino1.webp",
+            "femenino2": "images/femenino/femenino2.webp",
+            "femenino3": "images/femenino/femenino3.webp",
+            "femenino4": "images/femenino/femenino4.webp",
+            "femenino5": "images/femenino/femenino5.webp",
+            "femenino6": "images/femenino/femenino6.webp",
+            "femenino7": "images/femenino/femenino7.webp",
+            "femenino8": "images/femenino/femenino8.webp",
+            "femenino9": "images/femenino/femenino9.webp",
+            "femenino10": "images/femenino/femenino10.webp",
+            "femenino11": "images/femenino/femenino11.webp",
+            "femenino12": "images/femenino/femenino12.webp",
+            "femenino13": "images/femenino/femenino13.webp",
+            "femenino14": "images/femenino/femenino14.webp",
+            "femenino15": "images/femenino/femenino15.webp",
+            "femenino16": "images/femenino/femenino16.webp",
+            "femenino17": "images/femenino/femenino17.webp",
+            "femenino18": "images/femenino/femenino18.webp"
+        }
+    ],
+    "masculino": [
+        {
+            "masculino1": "images/masculino/masculino1.webp", 
+            "masculino2": "images/masculino/masculino2.webp",
+            "masculino3": "images/masculino/masculino3.webp",
+            "masculino4": "images/masculino/masculino4.webp",
+            "masculino5": "images/masculino/masculino5.webp",
+            "masculino6": "images/masculino/masculino6.webp",
+            "masculino7": "images/masculino/masculino7.webp",
+            "masculino8": "images/masculino/masculino8.webp",
+            "masculino9": "images/masculino/masculino9.webp"
+        }
+    ],
+    "playa": [
+        {
+            "playa1": "images/playa/playa1.webp", 
+            "playa2": "images/playa/playa2.webp",
+            "playa3": "images/playa/playa3.webp", 
+            "playa4": "images/playa/playa4.webp",
+            "playa5": "images/playa/playa5.webp", 
+            "playa6": "images/playa/playa6.webp",
+            "playa7": "images/playa/playa7.webp", 
+            "playa8": "images/playa/playa8.webp",
+            "playa9": "images/playa/playa9.webp", 
+            "playa10": "images/playa/playa10.webp",
+            "playa11": "images/playa/playa11.webp", 
+            "playa12": "images/playa/playa12.webp"
+        }
+    ],
+    "bosque": [
+        {
+            "bosque1": "images/bosque/bosque1.webp", 
+            "bosque2": "images/bosque/bosque2.webp",
+            "bosque3": "images/bosque/bosque3.webp",
+            "bosque4": "images/bosque/bosque4.webp",
+            "bosque5": "images/bosque/bosque5.webp",
+            "bosque6": "images/bosque/bosque6.webp", 
+            "bosque7": "images/bosque/bosque7.webp",
+            "bosque8": "images/bosque/bosque8.webp",
+            "bosque9": "images/bosque/bosque9.webp",
+            "bosque10": "images/bosque/bosque10.webp",
+            "bosque11": "images/bosque/bosque11.webp",
+            "bosque12": "images/bosque/bosque12.webp"
+        }
+    ]
+}
+
