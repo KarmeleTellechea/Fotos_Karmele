@@ -22,10 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const imageContainer = document.getElementById('image-container');
 
     // Fetch de imágenes
+    //pedir los datos 
     fetch('script /db.json')
-        .then(response => response.json())
+    //leer los datos 
+       .then(response => response.json())
+     //guardar los datos en una variable con los elementos 
         .then(data => {
-         
             const imagePaths = {
                 perros: data.perros[0],
                 gatos: data.gatos[0],
@@ -34,7 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 masculino: data.masculino[0],
                 playa: data.playa[0],
                 bosque: data.bosque[0]
+               
             };
+        
             console.log(imagePaths)
 
             // Función para mostrar imágenes

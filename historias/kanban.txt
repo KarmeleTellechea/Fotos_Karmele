@@ -47,3 +47,8 @@ US40FOTOS
       
 -US50quiero que cuando le de a la secion poder ver las subseciones para poder alegir 
     -quiero que cuando le de a una subsecion aparezcan las fotos de esa secion y subsecion categorizadas.
+
+JSON.
+    -Meter las imagenes en JSON
+    -conectar json con script 
+    -crear la variable de imagenes para conectar con lo que tengo y a la vez recoger el objto del json
